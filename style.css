@@ -8,3 +8,7 @@
 html {
   font-size: 6.25%;
 }
+
+.container {
+  margin: 200rem auto;
+}
