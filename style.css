@@ -9,6 +9,81 @@ html {
   font-size: 6.25%;
 }
 
-.container {
-  margin: 200rem auto;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  background-image: url(111.jpg);
+}
+
+form {
+  margin: 100rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  margin: 150rem auto;
+  width: 600rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10rem;
+  padding: 30rem 25rem 30rem 25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40rem;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 17rem;
+}
+
+label {
+  font-size: 30rem;
+  color: white;
+  margin-bottom: 5rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 10rem;
+  margin-bottom: 20rem;
+  font-size: 30rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(215, 249, 204, 0.5);
+  border: none;
+  border-radius: 7rem;
+}
+
+h3 {
+  font-size: 25rem;
+  color: white;
+}
+
+button {
+  margin-bottom: 15rem;
+  border: none;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25rem;
+  padding: 13rem 17rem 13rem 17rem;
+  background-color: rgba(10, 157, 10, 0.8);
+  color: white;
+  border-radius: 5rem;
+}
+
+button:hover {
+  background-color: rgba(7, 107, 7, 0.8);
+  color: rgb(239, 238, 238);
 }

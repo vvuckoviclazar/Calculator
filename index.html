@@ -4,8 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container"></div>
+    <form>
+      <h1>Kalkulator</h1>
+      <label for="firstNum">Untesite broj</label>
+      <input type="number" class="firstNum" />
+      <label for="operation">Untesite operaciju</label>
+      <input class="operation" />
+      <label for="secondNum">Untesite broj</label>
+      <input type="number" class="secondNum" />
+
+      <button type="submit">Izračunaj</button>
+      <input type="text" disabled class="result" />
+    </form>
+    <script src="script.js"></script>
   </body>
 </html>
